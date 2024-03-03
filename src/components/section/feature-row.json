@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_section_feature_rows",
+  "info": {
+    "displayName": "Feature Row",
+    "icon": "folder"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": ["images", "files", "videos", "audios"],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

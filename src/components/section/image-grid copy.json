@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_section_cta",
+  "info": {
+    "displayName": "CTA",
+    "icon": "folder"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
