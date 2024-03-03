@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "haircuts",
+  "info": {
+    "singularName": "haircut",
+    "pluralName": "haircuts",
+    "displayName": "Haircut",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Haircut": {
+      "type": "string"
+    },
+    "Barber": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
